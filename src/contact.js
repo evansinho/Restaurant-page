@@ -3,6 +3,7 @@ const contactPage = () => {
   contact.classList.add('contact-container');
 
   const contactHeader = document.createElement('h2');
+  contactHeader.innerText = 'CONTACT US';
   const contactForm = document.createElement('form');
 
   const formHtml = `

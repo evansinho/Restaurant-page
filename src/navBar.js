@@ -16,21 +16,21 @@ const navbar = () => {
   const home = document.createElement('a');
   home.innerText = 'HOME';
   homeBtn.classList.add('nav-items');
-  homeBtn.id = ('home');
+  home.id = ('home');
   homeBtn.appendChild(home);
 
   const menuBtn = document.createElement('li');
   const menu = document.createElement('a');
   menu.innerText = 'MENU';
   menuBtn.classList.add('nav-items');
-  menuBtn.id = ('menu');
+  menu.id = ('menu');
   menuBtn.appendChild(menu);
 
   const contactBtn = document.createElement('li');
   const contact = document.createElement('a');
   contact.innerText = 'CONTACT';
   contactBtn.classList.add('nav-items');
-  contactBtn.id = ('contact');
+  contact.id = ('contact');
   contactBtn.appendChild(contact);
 
   container.appendChild(homeBtn);

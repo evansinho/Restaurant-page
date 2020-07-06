@@ -13,19 +13,25 @@ const navbar = () => {
   container.classList.add('nav-list');
 
   const homeBtn = document.createElement('li');
+  const home = document.createElement('a');
+  home.innerText = 'HOME';
   homeBtn.classList.add('nav-items');
   homeBtn.id = ('home');
-  homeBtn.innerText = 'HOME';
+  homeBtn.appendChild(home);
 
   const menuBtn = document.createElement('li');
+  const menu = document.createElement('a');
+  menu.innerText = 'MENU';
   menuBtn.classList.add('nav-items');
   menuBtn.id = ('menu');
-  menuBtn.innerText = 'Menu';
+  menuBtn.appendChild(menu);
 
   const contactBtn = document.createElement('li');
+  const contact = document.createElement('a');
+  contact.innerText = 'CONTACT';
   contactBtn.classList.add('nav-items');
   contactBtn.id = ('contact');
-  contactBtn.innerText = 'Contact';
+  contactBtn.appendChild(contact);
 
   container.appendChild(homeBtn);
   container.appendChild(menuBtn);
